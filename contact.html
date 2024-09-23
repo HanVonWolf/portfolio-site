@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.jpg"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+<title> Portfolio contact </title>
+</head>
+
+<body>
+  <header class="page-header">
+    <img src="img/simple-laptop.jpg" alt="logo of a laptop" class="profile__logo">
+    <nav class="main-navigation page-header__item">
+     <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+           <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li >
+        <li role="presentation">
+           <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+           <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+        <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+         </li>
+     </ul>
+  </nav>
+  </header>
+
+    <main>
+        <img src="https://placehold.co/150x150" alt="Photo of me">
+        <h1>Get in contact with Hannah Wolfenden</h1>
+        <p> 
+            Here is how to get in contact with me.
+        </p>
+        Im Lenhart 13 <br>
+        67346 Speyer <br>
+        Deutschland <br>
+        <br>
+        Tel: <a href="tel: +49 1525 4642652">+4915254642652</a>
+        <br>
+        Skype: <a href="skype: hanvonwolf">Skype: Hanvonwolf</a>
+        <br>
+        Email: <a href="mailto: hannahwolfenden@outlook.com">hannahwolfenden@outlook.com</a>
+        <br>
+        <p> or use the form below to contact me</p>
+        <br>
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">E-mail: </label>
+            <input type="email" id="contact-email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+          
+            <label class="standard-label" for="contact-telephone">Telephone: </label>
+            <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+          
+            <label class="standard-label" for="message">Message: </label>
+            <textarea maxlength="240" id="message" required></textarea>
+          
+            <input type="submit" value="Send message">
+          </form>
+          <br>
+        <p> send me an email!</p>
+<!--Call to action button-->
+        <a href="mailto: hannahwolfenden@outlook.com">hannahwolfenden@outlook.com</a>
+    </main>
+
+    <footer>
+        <p>Find me on:</p>
+        <img src="img/github.svg" alt="GitHub">
+        <img src="img/twitter.svg" alt="Twitter">
+        <img src="img/linkedin.svg" alt="LinkedIn">
+    </footer>
+
+<script src="js/tota11y.min.js"></script>
+
+</body>
+
+</html>
