@@ -37,7 +37,6 @@ body, header, footer {
     flex: 0 1 200px;
   }
 
-
   .page-header__item:last-child {
     flex-grow: 1;
     text-align: right;
@@ -48,7 +47,6 @@ body, header, footer {
     width: 200px;
     height: 100px;
     margin-left: 5px;
-
   }
 
   .navigation-list {
@@ -103,10 +101,6 @@ body, header, footer {
   .button__secondary {
     background-color: var(--secondary-color);
     color: var(--dark-grey);
-  }
-
-  .about-me-info {
- text-align: center;
   }
 
   .profile {
