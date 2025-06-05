@@ -157,6 +157,11 @@ body, header, footer {
   }
  }
 
+ .grid__item img {
+  border-style: none;
+  height: 200px;
+  }
+
  .sun {
   animation: 4s color-change infinite alternate linear;
 }
